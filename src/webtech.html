@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shopping Website</title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link rel="shortcut icon" href="images/fav-icon.png"/>
+<script src="https://kit.fontawesome.com/c8e4d183c2.js"  crossorigin="anonymous"></script>
+</head>
+<body>
+<!--navigation-->
+<nav>
+	<div class="social-call">
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
+		<div class="phone">
+			<span>Call +9901459876</span>
+		</div>
+	</div>
+	<div class="navigation">
+			<a href="#" class="logo">
+				<img src="mypic1.png" />
+			</a>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="men.html">Men</a>
+					<span class="sale-label">Sale</span>
+				</li>
+				<li><a href="women.html">Women</a></li>
+				<li><a href="kids.html">Kids</a></li>
+				<li><a href="slide1.html">Shop</a></li>
+			</ul>
+		
+			<div class="right-menu">
+				<a href="#" class="search">
+					<i class="fas fa-search"></i>
+				</a>
+				<a href="javascript:void(0);" class="user">
+					<i class="far fa-user"></i>
+				</a>
+				<a href="#">
+					<i class="fas fa-shopping-cart"></i>
+					<span class="num-cart-product">0</span>
+				</a>
+			</div>
+			
+		</div>				
+</nav>
+	<div class="search-bar">
+		<div class="search-input">
+			<input type="text" placeholder="Search For Product"/>
+				<a href="#" class="search-cancel">
+					<i class="fas fa-times"></i>
+				</a>
+		</div>
+	</div>
+
+	<div class="form">
+		<div class="login-form">
+			<a href="#" class="form-cancel">
+				<i class="fas fa-times"></i>
+			</a>
+			<strong>Log-In</strong>
+			<form>
+				<input type="email" placeholder="Example@gmail.com" name="email" required>
+				<input type="password" placeholder="Password" name="password" required>
+				<input type="submit" value="Log In">
+			</form>
+			<div class="form-btns">
+			<a href="#" class="forgot">Forgot Passsword?</a><br>
+			<a href="#" class="sign-up-btn">Create Account</a>
+			</div>
+		</div>
+	</div>
+		<div class="sign-up-form">
+			<a href="#" class="form-cancel">
+				<i class="fas fa-times"></i>
+			</a>
+			<strong>Sign Up</strong>
+			<form>
+				<input type="text" placeholder="Full Name" name="fullname" required>
+				<input type="email" placeholder="Example@gmail.com" name="email" required>
+				<input type="password" placeholder="Password" name="password" required>
+				<input type="submit" value="Sign Up">
+			</form>
+			<div class="form-btns">
+			<a href="#" class="already-account">Already have an Account?</a><br>
+			</div>
+		</div>
+	<ul id="adaptive" class="cs-hidden">
+	<div class="row">
+	<div class="column">
+  		<li class="item-a">
+		<div class="full-slider-box f-slide-1">
+		<div class="slider-text-container">
+			<div class="f-slider-text">
+			<span>Limited Offer</span>
+			<strong>15%off <br>with <font>promo code</font></strong>
+			<a href="slide1.html" class="f-slider-btn">Shop Now!!!</a>
+			</div>
+		</div>
+		</div>
+		</li>
+	</div>
+	<div class="row">
+	<div class="column">
+		<li class="item-a">
+		<div class="full-slider-box f-slide-2">
+		<div class="slider-text-container">
+			<div class="f-slider-text">
+			<span>Limited Offer</span>
+			<strong>30%off <br>with <font>promo code</font></strong>
+			<a href="women.html" class="f-slider-btn">Shop Now!!!</a>
+			</div>
+		</div>
+		</div>
+		</li>
+	</div>
+	<div class="row">
+	<div class="column">
+		<li class="item-a">
+		<div class="full-slider-box f-slide-3">
+		<div class="slider-text-container">
+			<div class="f-slider-text">
+			<span>Limited Offer</span>
+			<strong>25%off <br>with <font>promo code</font></strong>
+			<a href="ring.html" class="f-slider-btn">Shop Now!!!</a>
+			</div>
+		</div>
+		</div>
+		</li>
+	</div>
+	</ul>
+
+	<div class="feature-heading">
+		<h2>Featured Categories</h2>
+	</div>
+	
+	<ul id="autoWidth" class="cs-hidden">
+  		<li class="item">
+		<div class="feature-box">
+		<a href="#">
+			<img src="fav4.jpg">
+		</a>
+		</div>	
+		<span>Earrings</span>
+		</li>
+	
+		<li class="item">
+		<div class="feature-box">
+		<a href="#">
+			<img src="fav1.jpg">
+		</a>
+		</div>	
+		<span>Ladies Bag</span>
+		</li>
+	
+		<li class="item">
+		<div class="feature-box">
+		<a href="#">
+			<img src="fav2.jpg">
+		</a>
+		</div>	
+		<span>Smartphones</span>
+		</li>	
+
+		<li class="item">
+		<div class="feature-box">
+		<a href="#">
+			<img src="fav3.jpg">
+		</a>
+		</div>	
+		<span>Tops</span>
+		</li>	
+
+		<li class="item">
+		<div class="feature-box">
+		<a href="#">
+			<img src="mypic5.png">
+		</a>
+		</div>	
+		<span>T-Shirt</span>
+		</li>		
+	</ul>
+	<section class="new-arrival">
+		<div class="arrival-heading">
+			<strong>New Arrival</strong>
+			<p>We provide you the latest Design and fashion clothes</p>
+		</div>
+
+		<div class="product-container">
+			<!--1-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="fav5.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">DrawString T-Shirt</a>
+					<span class="p-price">Rs.399</span>
+				</div>
+			</div>
+			<!--2-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p2.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Smart Watch</a>
+					<span class="p-price">Rs.4,999</span>
+				</div>
+			</div>
+			<!--3-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p3.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">School Bag</a>
+					<span class="p-price">Rs.790.00</span>
+				</div>
+			</div>
+			<!--4-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p4.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Diamond Ring</a>
+					<span class="p-price">Rs.8900.00</span>
+				</div>
+			</div>
+			<!--5-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p5.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Designery Mask</a>
+					<span class="p-price">Rs.359.00</span>
+				</div>
+			</div>
+			<!--6-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p6.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Trending Shirt</a>
+					<span class="p-price">Rs.890.00</span>
+				</div>
+			</div>
+			<!--7-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p7.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Silk saree</a>
+					<span class="p-price">Rs.1890.00</span>
+				</div>
+			</div>
+			<!--8-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p8.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Kurti</a>
+					<span class="p-price">Rs.1390.00</span>
+				</div>
+			</div>
+			<!--9-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p9.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Flower pot</a>
+					<span class="p-price">Rs.399.00</span>
+				</div>
+			</div>
+			<!--10-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p10.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Dream Catcher</a>
+					<span class="p-price">Rs.499.00</span>
+				</div>
+			</div>
+			<!--11-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p11.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Frock</a>
+					<span class="p-price">Rs.1399.00</span>
+				</div>
+			</div>
+			<!--12-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p12.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Ethnic Wear</a>
+					<span class="p-price">Rs.1999.00</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--sale-->
+	<section class="sale">
+		<!--slae-box1-->
+		<div class="sale-box">
+			<!--img-->
+			<img src="s1.jpg"/>
+			<a href="#">
+				<div class="sale-text">
+					<strong>Apple Mobile</strong>
+					<span>Sale off 30%</span>
+				</div>
+			</a>
+		</div>
+		<!--slae-box2-->
+		<div class="sale-box">
+			<!--img-->
+			<img src="s2.jpg"/>
+			<a href="#">
+				<div class="sale-text">
+					<strong>64gb pendrive</strong>
+					<span>Sale off 20%</span>
+				</div>
+			</a>
+		</div>
+		<!--slae-box3-->
+		<div class="sale-box">
+			<!--img-->
+			<img src="s3.jpg"/>
+			<a href="#">
+				<div class="sale-text">
+					<strong>Bluetooth neckband</strong>
+					<span>Sale off 15%</span>
+				</div>
+			</a>
+		</div>
+		<!--slae-box4-->
+		<div class="sale-box">
+			<!--img-->
+			<img src="s4.jpg"/>
+			<a href="#">
+				<div class="sale-text">
+					<strong>RINGS</strong>
+					<span>Sale off 15%</span>
+				</div>
+			</a>
+		</div>
+	
+	</section>
+	<section class="new-arrival">
+		<div class="arrival-heading">
+			<strong>Feature items</strong>
+			<p>We provide you the latest Design and fashion clothes</p>
+		</div>
+
+		<div class="product-container">
+			<!--1-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="fav5.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">DrawString T-Shirt</a>
+					<span class="p-price">Rs.999.00</span>
+				</div>
+			</div>
+			<!--2-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p2.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Smart Watch</a>
+					<span class="p-price">Rs.2900.00</span>
+				</div>
+			</div>
+			<!--3-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p3.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">School Bag</a>
+					<span class="p-price">Rs.899.00</span>
+				</div>
+			</div>
+			<!--4-->
+			<div class="product-box">
+				 
+				<div class="product-img">
+					<a href="cart.html" class="add-cart">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<img src="p4.jpg">
+				</div>
+				
+				<div class="product-details">
+					<a href="#" class="p-name">Diamond Ring</a>
+					<span class="p-price">Rs.7850.00</span>
+				</div>
+			</div>	
+		</div>	
+	</section>
+	
+			
+<!---services-->
+<section class="services">
+	<div class="service-box">
+		<i class="fas fa-shipping-fast"></i>
+		<span>Free Shipping</span>
+		<p>Free Shipping for all Us orders</p>
+	</div>
+	<div class="service-box">
+		<i class="fas fa-headphones-alt"></i>
+		<span>Support 24/7</span>
+		<p>We support 24h a day</p>
+	</div>
+	<div class="service-box">
+		<i class="fas fa-sync"></i>
+		<span>100% Money Back</span>
+		<p>You have 30 days to Return</p>
+	</div>
+
+</section>
+
+
+<!--footer-->
+<footer>
+	<span class="copyrigth">
+		Copyrigth 2021 -GoingToInternet
+	</span>
+	<div class="subscribe">
+		<form>
+			<input type="email" placeholder="Example@gmail.com" required/>
+			<input type="submit" value="subscribe" >
+ 		</form>
+	</div>
+</footer>
+
+	<script type="text/javascript">
+
+	$(document).on('click','.search',function(){
+		$('.search-bar').addClass('search-bar-active')
+	});
+	
+	$(document).on('click','.search-cancel',function(){
+		$('.search-bar').removeClass('search-bar-active')
+	});
+
+	$(document).on('click','.user,.already-account',function(){
+		$('.form').addClass('login-active').removeClass('sign-up-active')
+	});
+
+	$(document).on('click','.sign-up-btn',function(){
+		$('.form').addClass('sign-up-active').removeClass('login-active')
+	});
+
+	$(document).on('click','.form-cancel',function(){
+		$('.form').removeClass('login-active').removeClass('sign-up-active')
+	});
+
+	$(document).ready(function() {
+    	$('#adaptive').lightSlider({
+        	adaptiveHeight:true,
+	        auto:true,
+       	    item:1,
+        	slideMargin:0,
+        	loop:true
+    	});
+	});
+
+	 $(document).ready(function() {
+   	 $('#autoWidth').lightSlider({
+        	autoWidth:true,
+        	loop:true,
+        	onSliderLoad: function() {
+            	$('#autoWidth').removeClass('cS-hidden');
+        	} 
+    	});  
+ 	 });
+	  $(window).scroll(function(){
+		  if($(document).scrollTop>50){
+			  $(".navigation").addClass('fix-nav');
+		  }
+		  else{
+			$(".navigation").removeClass('fix-nav');  
+		  }
+	  })
+      
+</script>
+</body>
+</html>
