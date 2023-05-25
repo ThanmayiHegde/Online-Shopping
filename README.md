@@ -1,4 +1,4 @@
-# Online-Shopping
+# Online-Shopper
 I have developed this shopping website using Web Development tools.
 # Introduction
 Now a days the life style of the people is different. People feel uncomfortable and time consuming for going crowded markets. So, E-Shopping is a boon as it saves lot of time.
